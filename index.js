@@ -5,4 +5,4 @@ app.get('/',(req,res)=>{
     res.send('hello')
 })
 
-app.listen(4000,()=> console.log('success'))
+app.listen(process.env.PORT,()=> console.log('success'))
